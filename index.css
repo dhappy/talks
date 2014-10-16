@@ -1,0 +1,21 @@
+@import url('http://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    margin-top: 3em;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Oxygen;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
