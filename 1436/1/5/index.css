@@ -14,8 +14,10 @@ h1 {
     font-weight: normal;
 }
 
-a {
+.reveal a:not(.image) {
     text-decoration: none;
-    color: blue;
 }
 
+.reveal #trwbt {
+    font-size: 90px;
+}
