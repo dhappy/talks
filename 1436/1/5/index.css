@@ -66,6 +66,11 @@ h1 {
 
 #title h1 {
     color: #DE3E99;
+    text-shadow:
+     -1px -1px 0 #999,  
+      1px -1px 0 #999,
+     -1px  1px 0 #999,
+      1px  1px 0 #999;
 }
 
 #title h2 {
