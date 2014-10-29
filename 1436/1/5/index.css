@@ -39,7 +39,7 @@ h1 {
 }
 
 #aof {
-    top: -370px ! important;
+    top: -450px ! important;
 }
 
 #aof object {
@@ -53,4 +53,21 @@ h1 {
 
 .reveal cite {
     font-style: italic;
+}
+
+#mill {
+    top: -450px ! important;
+}
+
+#brmcrc img {
+    border: none ! important;
+    background: none;
+}
+
+#title h1 {
+    color: #DE3E99;
+}
+
+#title h2 {
+    color: green;
 }
