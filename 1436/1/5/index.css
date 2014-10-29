@@ -18,6 +18,39 @@ h1 {
     text-decoration: none;
 }
 
-.reveal #trwbt, .reveal #doh {
+.reveal #trwbt {
+    top: -460px ! important;
+}
+
+.reveal #trwbt h1 {
     font-size: 90px;
+}
+
+.reveal #doh {
+    top: -460px ! important;
+}
+
+.reveal #doh h1 {
+    font-size: 90px;
+}
+
+.reveal #doh img {
+    height: 18em;
+}
+
+#aof {
+    top: -370px ! important;
+}
+
+#aof object {
+    height: 20em;
+}
+
+.reveal p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.reveal cite {
+    font-style: italic;
 }
