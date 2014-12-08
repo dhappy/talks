@@ -1,0 +1,78 @@
+@import url('http://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    margin-top: 3em;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Oxygen;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.reveal a:not(.image) {
+    text-decoration: none;
+}
+
+.reveal #trwbt {
+    top: -460px ! important;
+}
+
+.reveal #trwbt h1 {
+    font-size: 90px;
+}
+
+.reveal #doh {
+    top: -460px ! important;
+}
+
+.reveal #doh h1 {
+    font-size: 90px;
+}
+
+.reveal #doh img {
+    height: 18em;
+}
+
+#aof {
+    top: -450px ! important;
+}
+
+#aof object {
+    height: 20em;
+}
+
+.reveal p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.reveal cite {
+    font-style: italic;
+}
+
+#mill {
+    top: -450px ! important;
+}
+
+#brmcrc img {
+    border: none ! important;
+    background: none;
+}
+
+#title h1 {
+    color: #DE3E99;
+    text-shadow:
+     -1px -1px 0 #999,  
+      1px -1px 0 #999,
+     -1px  1px 0 #999,
+      1px  1px 0 #999;
+}
+
+#title h2 {
+    color: green;
+}
