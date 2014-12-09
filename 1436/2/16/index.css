@@ -26,15 +26,15 @@ h1 {
     font-size: 90px;
 }
 
-.reveal #doh {
-    top: -460px ! important;
+.reveal #descriptors {
+    top: -400px ! important;
 }
 
-.reveal #doh h1 {
+.reveal #descriptors h1 {
     font-size: 90px;
 }
 
-.reveal #doh img {
+.reveal #descriptors img {
     height: 18em;
 }
 
@@ -102,3 +102,28 @@ h1, h2 {
     text-align: center;
     font-size: 55pt;
 }
+
+#multi-master h1 {
+    color: #D6F222;
+}
+
+#couchdb h1 {
+    color: #229FF2;
+}
+
+#ipfs h1 {
+    color: #F29822;
+}
+
+#technoanarchy h1 {
+    color: #EB4D4D;
+}
+
+#lustrum h1 {
+    color: #1E9E0D;
+}
+
+#descriptors h1 {
+    color: #E38520;
+}
+
