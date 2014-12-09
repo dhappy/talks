@@ -38,12 +38,13 @@ h1 {
     height: 18em;
 }
 
-#aof {
-    top: -450px ! important;
+#spaces {
+    top: -410px ! important;
 }
 
-#aof object {
-    height: 20em;
+#spaces object {
+    height: 18em;
+    margin-left: -6em;
 }
 
 .reveal p {
@@ -56,7 +57,11 @@ h1 {
 }
 
 #mill {
-    top: -450px ! important;
+    top: -410px ! important;
+}
+
+#mill img {
+    height: 15em;
 }
 
 #brmcrc img {
@@ -127,3 +132,30 @@ h1, h2 {
     color: #E38520;
 }
 
+#goals h1 {
+    color: #20CFE3;
+}
+
+.reveal q {
+    font-style: normal;
+    quotes: "“" "”";
+}
+
+#spaces h1 {
+    color: #F24900;
+    margin-bottom: .5em;
+}
+
+.reveal #yggdrasil {
+    top: -400px ! important;
+}
+
+#yggdrasil object {
+    height: 18em;
+}
+
+#yggdrasil h1 a {
+    color: #6900F2;
+    display: block;
+    margin-bottom: .25em;
+}
