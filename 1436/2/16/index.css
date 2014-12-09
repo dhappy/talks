@@ -166,4 +166,6 @@ h1, h2 {
 
 #bases iframe {
     height: 18em;
+    width: 100%;
+    z-index: 10;
 }
