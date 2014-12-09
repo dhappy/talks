@@ -64,15 +64,41 @@ h1 {
     background: none;
 }
 
-#title h1 {
-    color: #DE3E99;
+h1, h2 {
     text-shadow:
      -1px -1px 0 #999,  
       1px -1px 0 #999,
      -1px  1px 0 #999,
-      1px  1px 0 #999;
+      1px  1px 0 #999
+     ! important;
+}
+
+#title h1 {
+    color: #B86E07;
+    font-size: 140px;
+    margin-bottom: .5em;
 }
 
 #title h2 {
     color: green;
+    margin-bottom: .5em;
+}
+
+#BandZ h1 {
+    color: #DE3E99;
+    margin-bottom: .5em;
+}
+
+#BandZ p {
+    text-align: center;
+    font-size: 44px;
+}
+
+#Bday h1 {
+    color: #2225F2;
+}
+
+#Bday p {
+    text-align: center;
+    font-size: 55pt;
 }
