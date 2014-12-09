@@ -159,3 +159,11 @@ h1, h2 {
     display: block;
     margin-bottom: .25em;
 }
+
+#bases h1 {
+    color: #6900F2;
+}
+
+#bases iframe {
+    height: 18em;
+}
