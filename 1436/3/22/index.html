@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>1436/2/16 &#x2014; TriJS Talk</title>
+<meta charset='UTF-8'/>
+<link rel='stylesheet' href='reveal.js-2.6.2/css/reveal.min.css'/>
+<link rel='stylesheet' href='reveal.js-2.6.2/css/theme/night.css' id='theme'/>
+<link rel='stylesheet' href='reveal.js-2.6.2/lib/css/zenburn.css'/>
+<link rel='stylesheet' href='index.css'/>
+<script type='text/javascript'>
+if( window.location.search.match( /print-pdf/gi ) ) {
+var link = document.createElement( 'link' )
+link.rel = 'stylesheet'
+link.type = 'text/css'
+link.href = 'reveal.js-2.6.2/css/print/pdf.css'
+document.getElementsByTagName( 'head' )[0].appendChild( link )
+}
+</script>
+</head>
+<body>
+<div class='reveal'>
+<div class='slides'>
+<section id='title'>
+<h1>Games People Play</h1>
+<h2>TriJS</h2>
+<h3>1436/2/16</h3>
+<h3><a href='mailto:Will%20Holcomb%20%3Cwill@dhappy.org%3E'>Will Holcomb</a></h3>
+</section>
+<section id='lustrum'>
+<h1>Lustrum</h1>
+<p>One of the principle components of the system is everyone describing events they would like to see in our timeline, and then collaborating to make those happen.</p>
+</section>
+<section id='descriptors'>
+<h1>Weighted Descriptors</h1>
+<img src='images/weighted%20descriptor.png'/>
+</section>
+<section id='spaces'>
+<h1>Spaces</h1>
+<object data='images/oaks%20castle.svg'></object>
+</section>
+<section id='multi-master'>
+<h1>Multi-master Stores</h1>
+<p>Multiple traditional relational stores cannot be combined because of ID conflicts. Multi-master stores can.</p>
+</section>
+<section id='couchdb'>
+<h1>CouchDB</h1>
+<p>CouchDB instances are pools of javascript objects assigned globally unique identifiers.</p>
+</section>
+<section id='ipfs'>
+<h1>Interplanetary Filesystem</h1>
+<p><a href='http://ipfs.io'><acronym title='Interplanetary Filesystem'>IPFS</acronym></a> is a newly-designed <acronym title='peer-to-peer'>P2P</acronym> store which distributes a singly-rooted Git tree using BitTorrent.</p>
+</section>
+<section id='goals'>
+<h1>Goals</h1>
+<p>Initial influences the <acronym title='Artificial Intelligence'>AI</acronym> should have on the world are reductions in the average weights of <q>involuntarily hungry</q> and <q>at war</q>.</p>
+</section>
+<section id='bases'>
+<h1>Bases</h1>
+<!--<iframe src='https://www.google.com/maps/place/Johnson+City,+TN/@36.3182681,-82.3563068,17z/data=!4m2!3m1!1s0x885a7cdb5141a35b:0x3ce62a0c7c0563cb'></iframe>-->
+<h2><a href='https://www.google.com/maps/d/edit?mid=zpIVwERCLWkQ.kJizI2nVvZjY'>Map</a></h2>
+</section>
+<section id='yggdrasil'>
+<h1><a href='//github.com/dhappy/yggdrasil/'>Yggdrasil</a></h1>
+<object data='images/yggdrasil.svg'></object>
+</section>
+<section>
+<h1>Sources</h1>
+<ul>
+<li><a href='http://dhappy.org/.../book/by/Scott%20Peck/Road%20Less%20Traveled/'>M. Scott Peck &#x2015; <cite>The Road Less Traveled</cite></a></li>
+<li><a href='http://dhappy.org/.../book/by/Nassim%20Nicholas%20Taleb/The%20Black%20Swan/'>Nassim Nicholas Taleb &#x2015; <cite>The Black Swan</cite></a></li>
+<li>Coleman Barks &#x2015; <cite>The Essential Rumi</cite></li>
+<li><a href='http://dhappy.org/.../book/by/Robert%20Pirsig/Zen%20and%20the%20Art%20of%20Motorcycle%20Maintenance/'>Robert Pirsig &#x2015; <cite>Zen and the Art of Motorcycle Maintenance</cite></a></li>
+<li>Lawrence Kohlberg &#x2015; <cite>The Philosophy of Moral Development</cite></li>
+<li><a href='http://dhappy.org/.../zen/ox%20herding/'><cite>The Ox Herding Pictures</cite></a></li>
+<li><a href='http://dhappy.org/.../book/by/Robert%20Heinlien/Stranger%20in%20a%20Strange%20Land/'>Robert Heinlein &#x2015; <cite>Stranger in a Strange Land</cite></a></li>
+<li><a href='http://dhappy.org/.../book/by/Aldous%20Huxley/Island/'>Aldous Huxley &#x2015; <cite>Island</cite></a></li>
+<li><a href='http://dhappy.org/.../book/by/Robert%20Cialdini/Influence/'>Robert Cialdini &#x2015; <cite>Influnce</cite></a></li>
+<li>Isaac Asimov &#x2015; <cite>The Foundation Trilogy</cite></li>
+<li><a href='http://dhappy.org/.../book/by/Anthony%20DeMello/Awareness/'>Anthony DeMello &#x2015; <cite>Awareness</cite></a></li>
+<li><a href='http://dhappy.org/.../book/by/Ursula%20K.%20Le%20Guin/The%20Ones%20Who%20Walk%20Away%20From%20Omelas/'>Ursula K. LeGuin &#x2015; <cite>The Ones Who Walk Away From Omelas</cite></a></li>
+</ul>
+</section>
+</div>
+</div>
+<script type='text/javascript' src='reveal.js-2.6.2/lib/js/head.min.js'></script>
+<script type='text/javascript' src='reveal.js-2.6.2/js/reveal.min.js'></script>
+<script type='text/javascript'>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize( {
+controls: true,
+progress: true,
+history: true,
+center: true,
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+// Parallax scrolling
+// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+// parallaxBackgroundSize: '2100px 900px',
+// Optional libraries used to extend on reveal.js
+dependencies: [
+{ src: 'reveal.js-2.6.2/lib/js/classList.js', condition: function() { return !document.body.classList } },
+{ src: 'reveal.js-2.6.2/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ) } },
+{ src: 'reveal.js-2.6.2/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ) } },
+{ src: 'reveal.js-2.6.2/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad() } },
+{ src: 'reveal.js-2.6.2/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList } },
+{ src: 'reveal.js-2.6.2/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList } },
+{ src: 'reveal.js-2.6.2/reveal-svg-fragment.js', condition: function() { return !!document.querySelector( '[data-svg-fragment]' ) } }
+]
+} )
+</script>
+</body>
+</html>
