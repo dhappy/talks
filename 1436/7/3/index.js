@@ -1,5 +1,22 @@
 $(function() {
-    function syncSlide( time ) {
+    var video = $('#video').get( 0 )
+    var $progress = $('#progress')
+
+    $('#video').on( 'timeupdate', function( event ) {
+        var percentage = ( 100 / video.duration ) * video.currentTime
+        $("#inner").css( { width: percentage + '%' } )
+    } )
+
+    $progress.on( 'input', function( event ) {
+        var percentage = event.target.value
+        $("#inner").css( { width: percentage + '%' } )
+        setTimeout(function () {
+            video.currentTime = ( percentage * video.duration ) / 100
+        }, 1 )
+    } )
+
+    $('#video').on( 'timeupdate', function( event ) {
+	var time = this.currentTime
 	if( time < 1 ) {
 	    Reveal.slide( 0 )
 	} else if( time < 5 ) {
@@ -15,11 +32,6 @@ $(function() {
 	} else if( time < 30 ) {
 	    Reveal.slide( 5 )
 	}
-    }
-
-    $('#video').on( 'timeupdate', function( event ) {
-	var time = this.currentTime
-	syncSlide( time )
     } )
 
     $('#title').click( function( event ) {
