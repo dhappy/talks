@@ -79,10 +79,23 @@ h1 {
 
 #video {
     position: absolute;
-    top: 60%;
-    left: 25px;
+    top: 53%;
+    left: 2%;
     width: 20%;
     max-height: 25%;
     z-index: 100;
     border: 2px solid rgba(100, 100, 100, .75);
+}
+
+#progress {
+    position: absolute;
+    width: 96%;
+    height: 5%;
+    border: 2px solid rgba(100, 100, 100, .75);
+    bottom: 13%;
+    left: 2%;
+}
+
+#reveal {
+    max-height: 90%; // ToDo: overlap of slide control and progress bar
 }
