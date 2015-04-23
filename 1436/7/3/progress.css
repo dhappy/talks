@@ -1,6 +1,9 @@
 .progress-box {
-    width: 100%;
+    width: 96%;
     margin: 20px 0;
+    position: absolute;
+    bottom: 12%;
+    left: 2%;
 }
 
 .progress-box .percentage-cur .num {
@@ -14,7 +17,7 @@
     margin-bottom: 3px;
     border: 1px solid #dfdfdf;
     box-shadow: 0 0 2px #D5D4D4 inset;
-  position: relative;
+    position: relative;
 }
 
 .progress-box .progress-bar .inner {

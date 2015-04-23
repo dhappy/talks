@@ -15,12 +15,12 @@ $(function() {
 	}
     }
 
+    function syncProgress( time ) {
+    }
+
     $('#video').on( 'timeupdate', function( event ) {
 	var time = this.currentTime
 	syncSlide( time )
-	
+	syncProgress( time )
     } )
-
-    var $progressBar = $('<div/>').attr( { id: 'progress' } )
-    $('body').prepend( $progressBar )
 } )
