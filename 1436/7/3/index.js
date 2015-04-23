@@ -1,6 +1,6 @@
 $(function() {
     function syncSlide( time ) {
-	if( time < 5 ) {
+	if( time < 1 ) {
 	    Reveal.slide( 0 )
 	} else if( time < 10 ) {
 	    Reveal.slide( 1 )
@@ -15,12 +15,12 @@ $(function() {
 	}
     }
 
-    function syncProgress( time ) {
-    }
-
     $('#video').on( 'timeupdate', function( event ) {
 	var time = this.currentTime
 	syncSlide( time )
-	syncProgress( time )
+    } )
+
+    $('#title').click( function( event ) {
+	$('#video').get( 0 ).play()
     } )
 } )

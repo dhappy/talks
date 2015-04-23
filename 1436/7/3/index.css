@@ -65,12 +65,23 @@ h1 {
 }
 
 #title h1 {
-    color: #DE3E99;
     text-shadow:
-     -1px -1px 0 #999,  
-      1px -1px 0 #999,
-     -1px  1px 0 #999,
-      1px  1px 0 #999;
+      -2px -2px 0 rgba(237, 234, 55, .25),  
+       2px -2px 0 rgba(237, 234, 55, .25),
+      -2px  2px 0 rgba(237, 234, 55, .25),
+       2px  2px 0 rgba(237, 234, 55, .25);
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+    0% { color: #DE3E99 }
+    50% { color: #EDED37 }
+    100% { color: #DE3E99 }
+}
+
+#title h1:hover {
+    color: #3737ED;
 }
 
 #title h2 {
