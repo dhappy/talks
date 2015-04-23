@@ -6,9 +6,10 @@
     <link rel='stylesheet' href='reveal.js-2.6.2/css/reveal.min.css'/>
     <link rel='stylesheet' href='reveal.js-2.6.2/css/theme/night.css' id='theme'/>
     <link rel='stylesheet' href='reveal.js-2.6.2/lib/css/zenburn.css'/>
+    <link rel='stylesheet' href='progress.css'/>
     <link rel='stylesheet' href='index.css'/>
 
-    <script type='text/javascript'>
+    <script type='text/javascript'><!-- pdf printing -->
       if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' )
         link.rel = 'stylesheet'
@@ -18,12 +19,22 @@
       }
     </script>
     <script type='text/javascript' src='//code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script type='text/javascript' src='index.js'></script>
   </head>
   <body>
     <video id='video'>
       <source src="//googledrive.com/host/0BztPcA9FhuDrflpyMHg1Y3BfaWRwTDhLeUVWeVMyamgwbjFCYXBtOHZsMno2MGtKOHNXTmc" type="video/mp4"  />
     </video>
+    <div class="progress-box" ng-app>
+      <div class="percentage-cur" ng-init="selectedRange=0">
+	<span class="num">{{ selectedRange }}%</span>
+      </div>
+      <div class="progress-bar progress-bar-slider">
+	<input class="progress-slider" type="range" min="0" max="100" ng-model="selectedRange"/>
+	<div class="inner" ng-style="{ width: selectedRange + '%' || '0%' }"></div>
+      </div>
+    </div>
     <div class='reveal'>
       <div class='slides'>
 	<section id='title'>
