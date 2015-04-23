@@ -7,6 +7,8 @@ $(function() {
 	} else if( time < 10 ) {
 	    Reveal.slide( 1, 1 )
 	} else if( time < 15 ) {
+	    Reveal.slide( 1, 2 )
+	} else if( time < 20 ) {
 	    Reveal.slide( 2 )
 	} else if( time < 25 ) {
 	    Reveal.slide( 4 )
