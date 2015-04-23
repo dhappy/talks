@@ -1,5 +1,7 @@
 $(function() {
-    $('#video').on( 'seeking', function( event ) {
-	console.log( event )
+    $('#video').on( 'timeupdate', function( event ) {
+	if( this.currentTime > 10 ) {
+	    Reveal.right()
+	}
     } )
 } )
