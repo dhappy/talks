@@ -3,9 +3,9 @@
   <head>
     <title>1436/7/3 &#x2014; Charmander</title>
     <meta charset='UTF-8'/>
-    <link rel='stylesheet' href='reveal.js-2.6.2/css/reveal.min.css'/>
-    <link rel='stylesheet' href='reveal.js-2.6.2/css/theme/night.css' id='theme'/>
-    <link rel='stylesheet' href='reveal.js-2.6.2/lib/css/zenburn.css'/>
+    <link rel='stylesheet' href='reveal.js-3.0.0/css/reveal.css'/>
+    <link rel='stylesheet' href='reveal.js-3.0.0/css/theme/black.css' id='theme'/>
+    <link rel='stylesheet' href='reveal.js-3.0.0/lib/css/zenburn.css'/>
     <link rel='stylesheet' href='progress.css'/>
     <link rel='stylesheet' href='index.css'/>
 
@@ -40,10 +40,16 @@
           <h3><a href='mailto:Will%20Holcomb%20%3Cwill@dhappy.org%3E'>Will Holcomb</a></h3>
         </section>
 
-	<section>
-          <h1>The Revolution Will Be Televised</h1>
-	  <p>History takes place as events. Sets of people are participants in events. If systemic hunger comes to an end, it will do so as a series of events.</p>
-	  <p>If the historical process were identified, viewers could stay abreast with daily updates comprised of footage from around the world.</p>
+	<section id='trwbt'>
+	  <section>
+            <h1>The Revolution Will Be Televised</h1>
+
+	    <p>History takes place as events. Sets of people are participants in events. If systemic hunger comes to an end, it will do so as a series of events.</p>
+	    <p>If the historical process were identified, viewers could stay abreast with daily updates comprised of footage from around the world.</p>
+	    <p>A recommendation engine would use feedback to build a series of segments most likely to interest the viewer.</p>
+	  </section>
+	  <section>
+	    <p>Historically, it would be seen as the next evolution of reality television. Instead of quasi-scripted and edited reality, viewers get salient information pulled from actual occurences in actual reality.</p>
         </section>
 
         <section id='trwbt'>
@@ -196,37 +202,29 @@
       </div>
     </div>
     
-    <script type='text/javascript' src='reveal.js-2.6.2/lib/js/head.min.js'></script>
-    <script type='text/javascript' src='reveal.js-2.6.2/js/reveal.min.js'></script>
-
-    <script type='text/javascript'>
-      // Full list of configuration options available here:
+    <script type='text/javascript' src='reveal.js-3.0.0/lib/js/head.min.js'></script>
+    <script type='text/javascript' src='reveal.js-3.0.0/js/reveal.js'></script>
+    <script>
+      // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize( {
+      Reveal.initialize({
         controls: true,
 	progress: true,
 	history: true,
 	center: true,
 
-	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-	transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+	transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-	// Parallax scrolling
-	// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-	// parallaxBackgroundSize: '2100px 900px',
-
-	// Optional libraries used to extend on reveal.js
+	// Optional reveal.js plugins
 	dependencies: [
-	  { src: 'reveal.js-2.6.2/lib/js/classList.js', condition: function() { return !document.body.classList } },
-	  { src: 'reveal.js-2.6.2/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ) } },
-	  { src: 'reveal.js-2.6.2/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ) } },
-	  { src: 'reveal.js-2.6.2/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad() } },
-	  { src: 'reveal.js-2.6.2/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList } },
-	  { src: 'reveal.js-2.6.2/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList } },
-          { src: 'reveal.js-2.6.2/reveal-svg-fragment.js', condition: function() { return !!document.querySelector( '[data-svg-fragment]' ) } }
+	  { src: 'reveal.js-3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+	  { src: 'reveal.js-3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	  { src: 'reveal.js-3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	  { src: 'reveal.js-3.0.0/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+	  { src: 'reveal.js-3.0.0/plugin/zoom-js/zoom.js', async: true },
+	  { src: 'reveal.js-3.0.0/plugin/notes/notes.js', async: true }
 	]
-      } )
+      });
     </script>
-
   </body>
 </html>

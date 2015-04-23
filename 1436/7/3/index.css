@@ -14,12 +14,17 @@ h1 {
     font-weight: normal;
 }
 
+.reveal {
+    margin-left: 10%;
+}
+
 .reveal a:not(.image) {
     text-decoration: none;
 }
 
 .reveal #trwbt {
-    top: -460px ! important;
+    top: -40px ! important;
+    line-height: 0em;
 }
 
 .reveal #trwbt h1 {
