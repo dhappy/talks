@@ -87,15 +87,6 @@ h1 {
     border: 2px solid rgba(100, 100, 100, .75);
 }
 
-#progress {
-    position: absolute;
-    width: 96%;
-    height: 5%;
-    border: 2px solid rgba(100, 100, 100, .75);
-    bottom: 13%;
-    left: 2%;
-}
-
 #reveal {
     max-height: 90%; // ToDo: overlap of slide control and progress bar
 }

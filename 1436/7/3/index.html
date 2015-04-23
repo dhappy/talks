@@ -27,9 +27,6 @@
       <source src="//googledrive.com/host/0BztPcA9FhuDrflpyMHg1Y3BfaWRwTDhLeUVWeVMyamgwbjFCYXBtOHZsMno2MGtKOHNXTmc" type="video/mp4"  />
     </video>
     <div class="progress-box" ng-app>
-      <div class="percentage-cur" ng-init="selectedRange=0">
-	<span class="num">{{ selectedRange }}%</span>
-      </div>
       <div class="progress-bar progress-bar-slider">
 	<input class="progress-slider" type="range" min="0" max="100" ng-model="selectedRange"/>
 	<div class="inner" ng-style="{ width: selectedRange + '%' || '0%' }"></div>
