@@ -106,3 +106,7 @@ h1 {
 #reveal {
     max-height: 90%; // ToDo: overlap of slide control and progress bar
 }
+
+.reveal h1 {
+    line-height: .75em;
+}
