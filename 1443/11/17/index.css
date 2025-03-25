@@ -1,0 +1,112 @@
+@import url('http://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    margin-top: 3em;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Oxygen;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.reveal {
+    margin-left: 10%;
+}
+
+.reveal a:not(.image) {
+    text-decoration: none;
+}
+
+.reveal #trwbt {
+    top: -40px ! important;
+    line-height: 0em;
+}
+
+.reveal #trwbt h1 {
+    font-size: 90px;
+}
+
+.reveal #doh {
+    top: -460px ! important;
+}
+
+.reveal #doh h1 {
+    font-size: 90px;
+}
+
+.reveal #doh img {
+    height: 18em;
+}
+
+#aof {
+    top: -450px ! important;
+}
+
+#aof object {
+    height: 20em;
+}
+
+.reveal p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+.reveal cite {
+    font-style: italic;
+}
+
+#mill {
+    top: -450px ! important;
+}
+
+#brmcrc img {
+    border: none ! important;
+    background: none;
+}
+
+#title h1 {
+    text-shadow:
+      -2px -2px 0 rgba(237, 234, 55, .25),  
+       2px -2px 0 rgba(237, 234, 55, .25),
+      -2px  2px 0 rgba(237, 234, 55, .25),
+       2px  2px 0 rgba(237, 234, 55, .25);
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+    0% { color: #DE3E99 }
+    50% { color: #EDED37 }
+    100% { color: #DE3E99 }
+}
+
+#title h1:hover {
+    color: #3737ED;
+}
+
+#title h2 {
+    color: green;
+}
+
+#video {
+    position: absolute;
+    bottom: 22%;
+    left: 2%;
+    width: 20%;
+    max-height: 50%;
+    z-index: 100;
+    border: 2px solid rgba(100, 100, 100, .75);
+}
+
+#reveal {
+    max-height: 90%; // ToDo: overlap of slide control and progress bar
+}
+
+.reveal h1 {
+    line-height: .75em;
+}
